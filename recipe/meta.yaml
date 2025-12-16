@@ -21,7 +21,7 @@ requirements:
     - python {{ python_min }}
   run:
     - python >={{ python_min }}
-    - jupyterlab-js =4.5.0
+    - jupyterlab-js =4.5.1
 
 test:
   imports:
@@ -37,7 +37,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: A Python package distributing Notebook's static assets
+  summary: "A Python package distributing Notebook's static assets"
   dev_url: https://github.com/davidbrochart/notebook-frontend
 
 extra:

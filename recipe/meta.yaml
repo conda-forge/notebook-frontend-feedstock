@@ -1,5 +1,5 @@
 {% set name = "notebook-frontend" %}
-{% set version = "7.5.1" %}
+{% set version = "7.5.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 446b5ee021415ba81ffc00a3f1c4dfb0778159b3d21a47865090867019aab7f8
+  sha256: 6f1a0a8e741af208ff7f2821158c070e1607673a0db7d14ede6f77291d216219
 
 build:
   noarch: python
@@ -21,7 +21,7 @@ requirements:
     - python {{ python_min }}
   run:
     - python >={{ python_min }}
-    - jupyterlab-js =4.5.1
+    - jupyterlab-js =4.5.2
 
 test:
   imports:

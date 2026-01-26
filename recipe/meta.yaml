@@ -1,5 +1,5 @@
 {% set name = "notebook-frontend" %}
-{% set version = "7.5.2" %}
+{% set version = "7.5.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 6f1a0a8e741af208ff7f2821158c070e1607673a0db7d14ede6f77291d216219
+  sha256: 01e6f57c6ea7d6daef561f6aebfbe5ba868e433d99856f4f143ca82b3bcaadda
 
 build:
   noarch: python

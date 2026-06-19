@@ -21,8 +21,7 @@ requirements:
     - python {{ python_min }}
   run:
     - python >={{ python_min }}
-    - jupyterlab-js =4.5.5
-
+    - jupyterlab-js =4.6.0
 test:
   imports:
     - notebook_frontend

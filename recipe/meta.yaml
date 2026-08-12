@@ -21,7 +21,7 @@ requirements:
     - python {{ python_min }}
   run:
     - python >={{ python_min }}
-    - jupyterlab-js =4.6.1
+    - jupyterlab-js =4.6.2
 
 test:
   imports:

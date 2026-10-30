@@ -1,13 +1,13 @@
 {% set name = "notebook-frontend" %}
-{% set version = "7.6.2" %}
+{% set version = "7.6.4" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 67cff01a4ae65d9c97a1336c0e6f835e98b7545be205d6f67438d5b25181c68c
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 3ba8dd3c184bec23af8b6660a60bdae74df62dfb3c6b140a55146ee55073de08
 
 build:
   noarch: python
